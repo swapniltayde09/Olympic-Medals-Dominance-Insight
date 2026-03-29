@@ -58,14 +58,14 @@ Interactive Power BI analysis of Summer Olympic medals from 1976-2008 (5,179 med
 4. **Drill into dominance** using Matrix → Heatmap → Treemaps
 
 ## 📈 Interactive Features
-
+```
 ✅ Country slicer (single/multi-select)
 ✅ Sport slicer (single/multi-select)
 ✅ Year range slicer (1976-2008)
 ✅ Cross-filtering across all visuals
 ✅ Tooltips with medal breakdown (G/S/B)
 ✅ Mobile-responsive layout
-
+```
 ## 🛠️ Technical Details
 
 **Power BI Version**: Desktop (latest)
