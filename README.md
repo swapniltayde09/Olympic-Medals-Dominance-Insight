@@ -2,7 +2,8 @@
 
 Interactive Power BI analysis of Summer Olympic medals from 1976-2008 (5,179 medals across 31 countries, 26 sports).
 
-[![Dashboard Preview](screenshots/dashboard-preview.png)](Olympics_PBI_v2.0.pdf)
+[![Dashboard Preview]
+<img src="Visualisations/Olympics_Medals_PBI_1.png"/>
 
 ## 🎯 Project Overview
 
@@ -111,13 +112,13 @@ Olympics-Medals-Analysis/
 ## Dashboard Screenshots
 
 ### Dashboard Home - Country Performance
-![Country Medal Trends](screenshots/country-medals.png)
+<img src="Visualisations/Olympics_Medals_PBI_1.png"/>
 
 ### Country-Sport Dominance Matrix + Heatmap
-![Dominance Analysis](screenshots/matrix-heatmap.png)
+<img src="Visualisations/Olympics_Medals_PBI_2.png"/>
 
 ### Dual Treemaps - Country vs Sport Focus
-![Treemaps](screenshots/treemaps.png)
+<img src="Visualisations/Olympics_Medals_PBI_4.png"/>
 
 ## 👥 Skills Demonstrated
 
@@ -139,7 +140,6 @@ Olympics-Medals-Analysis/
 ## 🔗 Related Resources
 
 - [Original Dataset](Summer-Olympic-medals-1976-to-2008.csv)
-- [Stakeholder Insights Report](insights/olympics_insights_stakeholders.md)
 - [Problem Statement](Problem_Statements_v1.1.xlsx)
 
 ## 📝 License
