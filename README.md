@@ -92,17 +92,15 @@ Olympics-Medals-Analysis/
 │
 ├── analysis/
 │   └── Olympics_Medals_EDA.xlsx
+│   ├── Progression_Summary.xlsx
+│   ├── Success_Score.csv
+│   └── Country_Year_Medals.xlsx
 │
 ├── dashboard/
 │   └── Olympics_PBI_v2.0.pbix
 │
 ├── reports/
 │   └── Olympic_Medals_Analysis_Report.pdf
-│
-├── advanced-analysis/
-│   ├── Progression_Summary.xlsx
-│   ├── Success_Score.csv
-│   └── Country_Year_Medals.xlsx
 │
 ├── problem-definition/
 │   └── Problem_Statements.xlsx
