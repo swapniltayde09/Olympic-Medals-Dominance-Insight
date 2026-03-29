@@ -120,7 +120,7 @@ Olympics-Medals-Analysis/
 <img src="Visualisations/Olympics_Medals_PBI_4.png"/>
 
 ## 👥 Skills Demonstrated
-
+```
 ✅ Power BI Desktop (full end-to-end)
 ✅ Data modeling (star schema)
 ✅ DAX measures and calculations
@@ -129,7 +129,7 @@ Olympics-Medals-Analysis/
 ✅ Mobile-responsive design
 ✅ Stakeholder-ready insights
 ✅ Executive presentation formatting
-
+```
 ## 📈 Results Summary
 
 **Achievement**: Built production-ready dashboard answering 5 core research questions about Olympic performance patterns.
