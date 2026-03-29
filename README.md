@@ -42,14 +42,13 @@ Interactive Power BI analysis of Summer Olympic medals from 1976-2008 (5,179 med
 
 
 ## 🔍 Key Insights
-```
+
 | Question | Answer | Visual |
 |----------|--------|---------|
 | **Top medal nations?** | USA (2,021), Soviet Union (798), Australia (691) | Bar chart |
 | **Peak Olympic years?** | 2008 (2,042 medals), 2004 (2,015), 1996 (1,859) | Year table |
 | **USA sport dominance?** | Aquatics (578), Athletics (299), Rowing (192) | Matrix/Heatmap |
 | **Most concentrated sports?** | Baseball, Softball, Modern Pentathlon | Sport treemap |
-```
 
 ## 🚀 How to Use
 
