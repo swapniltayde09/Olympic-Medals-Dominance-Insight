@@ -82,17 +82,32 @@ Interactive Power BI analysis of Summer Olympic medals from 1976-2008 (5,179 med
 
 ## 📁 Repository Structure
 ```
-olympics-powerbi-dashboard/
-├── README.md # This file
-├── Olympics_PBI_v2.0.pbix # Interactive dashboard
-├── Summer-Olympic-medals-1976-to-2008.csv # Raw data
-├── screenshots/ # Preview images
-│ ├── dashboard-preview.png
-│ ├── country-sport-matrix.png
-│ └── medal-trends.png
-├── insights/ # Stakeholder reports
-│ └── olympics_insights_stakeholders.md
-└── Problem_Statements_v1.1.xlsx # Original brief
+Olympics-Medals-Analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── Summer-Olympic-medals-1976-to-2008.csv
+│   ├── processed/
+│   │   └── Olympics_Cleaned_Data.xlsx
+│
+├── analysis/
+│   └── Olympics_Medals_EDA.xlsx
+│
+├── dashboard/
+│   └── Olympics_PBI_v2.0.pbix
+│
+├── reports/
+│   └── Olympic_Medals_Analysis_Report.pdf
+│
+├── advanced-analysis/
+│   ├── Progression_Summary.xlsx
+│   ├── Success_Score.csv
+│   └── Country_Year_Medals.xlsx
+│
+├── problem-definition/
+│   └── Problem_Statements.xlsx
+│
+├── README.md
 ```
 
 ## Dashboard Screenshots
