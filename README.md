@@ -1,18 +1,22 @@
 # Olympic Medals Power BI Dashboard
 
-Interactive Power BI analysis of Summer Olympic medals from 1976-2008 (5,179 medals across 31 countries, 26 sports).
+Interactive Power BI analysis of Summer Olympic medals from 1976–2008, covering more than 15,000 medals across 120+ countries and 25+ sports.
 
 <img src="Visualisations/Olympics_Medals_Dashboard_Main.png"/>
 
-## 🎯 Project Overview
+## Project Overview
 
-**Business Problem**: Identify country-sport dominance patterns and performance trends to inform strategic Olympic investment decisions.
+**Objective**  
+Analyze Summer Olympic results from 1976–2008 to understand country performance, country–sport dominance patterns, and medal distribution, supporting data-driven decisions for Olympic strategy and investment.
 
-**Dataset**: 5,179 medal records from Summer Olympics 1976-2008
-- 31 countries represented
-- 26 sports analyzed  
-- 3 medal types (Gold, Silver, Bronze)
+**Dataset**  
+Based on the “Summer-Olympic-medals-1976-to-2008.csv” dataset.
 
+- 1976–2008 Summer Olympic Games  
+- 120+ participating countries  
+- 25+ sports  
+- Gold, Silver, and Bronze medal results at athlete level
+  
 ## 🔍 Key Insights
 
 | Question | Answer | Visual |
@@ -22,7 +26,18 @@ Interactive Power BI analysis of Summer Olympic medals from 1976-2008 (5,179 med
 | **USA sport dominance?** | Aquatics (578), Athletics (299), Rowing (192) | Matrix/Heatmap |
 | **Most concentrated sports?** | Baseball, Softball, Modern Pentathlon | Sport treemap |
 
-## 🚀 How to Use
+## How to Use This Project
+
+1. Download `dashboard/Olympics_PBI_v2.0.pbix`.
+2. Open it in Power BI Desktop.
+3. Use slicers at the top of the report to filter by:
+   - Country  
+   - Sport  
+   - Year range (1976–2008)
+4. Explore country–sport dominance by moving from:
+   - High-level KPIs → matrix and heatmap → country- and sport-focused treemaps.
+
+## How to Use
 
 1. **Download** `Olympics_PBI_v2.0.pbix` 
 2. **Open** in Power BI Desktop
@@ -52,7 +67,25 @@ Interactive Power BI analysis of Summer Olympic medals from 1976-2008 (5,179 med
 **DAX Measures**: Medal Count, Gold Medals, Silver Medals, Bronze Medals
 **Visuals**: 12 total (Matrix, Heatmap, Treemaps, Line, Map, Bar, Table)
 
-## 📁 Repository Structure
+**Core DAX Measures**
+
+- `Medal Count = COUNTROWS(Medals)`  
+- `Gold Medals`  
+- `Silver Medals`  
+- `Bronze Medals`  
+- `Total Medals`  
+- Additional percentage and ranking measures for analysis.
+
+**Visuals Used**
+
+- KPI cards (Countries, Sports, Athletes, Total Medals, Gold, Silver, Bronze)  
+- Matrix and conditional-format heatmap  
+- Dual treemaps (country-focused and sport-focused)  
+- Line/area charts for medal trends by year  
+- World map of Olympic medals  
+- Supporting tables and filters.
+
+## Repository Structure
 ```
 Olympics-Medals-Analysis/
 │
@@ -91,7 +124,7 @@ Olympics-Medals-Analysis/
 ### Dual Treemaps - Country vs Sport Focus
 <img src="Visualisations/Olympics_Medals_PBI_4.png"/>
 
-## 👥 Skills Demonstrated
+## Skills Demonstrated
 ```
 ✅ Power BI Desktop (full end-to-end)
 ✅ Data modeling (star schema)
@@ -102,21 +135,21 @@ Olympics-Medals-Analysis/
 ✅ Stakeholder-ready insights
 ✅ Executive presentation formatting
 ```
-## 📈 Results Summary
+## Results Summary
 
 **Achievement**: Built production-ready dashboard answering 5 core research questions about Olympic performance patterns.
 
 **Impact**: Enables data-driven decisions for national Olympic committees on sport investment priorities and performance benchmarking.
 
-## 🔗 Related Resources
+## Related Resources
 
 - [Original Dataset](Summer-Olympic-medals-1976-to-2008.csv)
 - [Problem Statement](Problem_Statements_v1.1.xlsx)
 
-## 📝 License
+## License
 
 MIT License - Feel free to use, modify, and share for learning/portfolio purposes.
 
 ---
 
-**Built with** 🏅 **Power BI** | **1976-2008 Summer Olympics Data**
+**Built with** **Power BI** | **1976-2008 Summer Olympics Data**
