@@ -116,7 +116,7 @@ Olympics-Medals-Analysis/
 ## Dashboard Screenshots
 
 ### Dashboard Home - Country Performance
-<img src="Visualisations/Olympics_Medals_PBI_1.png"/>
+<img src="Visualisations/Olympics_Medals_Dashboard_00001.png"/>
 
 ### Country-Sport Dominance Matrix + Heatmap
 <img src="Visualisations/Olympics_Medals_PBI_2.png"/>
